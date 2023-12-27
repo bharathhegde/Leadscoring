@@ -1,0 +1,9 @@
+Predicted ratio for the date Wed Dec 27 17:03:21 2023 
+ 1   62.42948728678797% 
+ 0   37.57051271321203%
+Predicted ratio for the date Wed Dec 27 17:03:25 2023 
+ 1   62.42948728678797% 
+ 0   37.57051271321203%
+Predicted ratio for the date Wed Dec 27 17:18:07 2023 
+ 1   49.91591928251121% 
+ 0   50.08408071748879%

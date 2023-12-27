@@ -1,0 +1,41 @@
+[2023-12-27 07:12:16,634] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema scheduled__2023-12-26T00:00:00+00:00 [queued]>
+[2023-12-27 07:12:16,651] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema scheduled__2023-12-26T00:00:00+00:00 [queued]>
+[2023-12-27 07:12:16,651] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 07:12:16,651] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2023-12-27 07:12:16,651] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-27 07:12:16,678] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): checking_model_inputs_schema> on 2023-12-26 00:00:00+00:00
+[2023-12-27 07:12:16,682] {standard_task_runner.py:52} INFO - Started process 1238 to run task
+[2023-12-27 07:12:16,684] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'checking_model_inputs_schema', 'scheduled__2023-12-26T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/.ipynb_checkpoints/lead_scoring_data_pipeline-checkpoint.py', '--cfg-path', '/tmp/tmpzx9xrlt0', '--error-file', '/tmp/tmp1v1vt_vg']
+[2023-12-27 07:12:16,685] {standard_task_runner.py:80} INFO - Job 18: Subtask checking_model_inputs_schema
+[2023-12-27 07:12:16,772] {task_command.py:371} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema scheduled__2023-12-26T00:00:00+00:00 [running]> on host ce59f542c9dd
+[2023-12-27 07:12:16,877] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Lead_Scoring_Data_Engineering_Pipeline
+AIRFLOW_CTX_TASK_ID=checking_model_inputs_schema
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-26T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-26T00:00:00+00:00
+[2023-12-27 07:12:17,565] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 1238. PIDs of all processes in the group: [1238]
+[2023-12-27 07:12:17,565] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 1238
+[2023-12-27 07:12:18,010] {taskinstance.py:1561} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-27 07:12:18,062] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/opt/conda/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/dags/Lead_scoring_data_pipeline/data_validation_checks.py", line 73, in model_input_schema_check
+    df = pd.read_sql('select * from model_input', conn)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/sql.py", line 566, in read_sql
+    return pandas_sql.read_query(
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/sql.py", line 2094, in read_query
+    data = self._fetchall_as_list(cursor)
+  File "/opt/conda/lib/python3.8/site-packages/pandas/io/sql.py", line 2108, in _fetchall_as_list
+    result = cur.fetchall()
+  File "/opt/conda/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1563, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-12-27 07:12:18,068] {taskinstance.py:1415} INFO - Marking task as UP_FOR_RETRY. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=checking_model_inputs_schema, execution_date=20231226T000000, start_date=20231227T071216, end_date=20231227T071218
+[2023-12-27 07:12:18,095] {standard_task_runner.py:92} ERROR - Failed to execute job 18 for task checking_model_inputs_schema (Task received SIGTERM signal; 1238)

@@ -1,0 +1,162 @@
+[2023-12-27 17:01:11,186] {processor.py:153} INFO - Started process (PID=2885) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:01:11,187] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:01:11,188] {logging_mixin.py:115} INFO - [2023-12-27 17:01:11,187] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:01:11,923] {logging_mixin.py:115} INFO - [2023-12-27 17:01:11,923] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:01:11,923] {logging_mixin.py:115} INFO - [2023-12-27 17:01:11,923] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:01:12,081] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:01:12,097] {logging_mixin.py:115} INFO - [2023-12-27 17:01:12,097] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:01:12,121] {logging_mixin.py:115} INFO - [2023-12-27 17:01:12,121] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T16:00:00+00:00, run_after=2023-12-27T17:00:00+00:00
+[2023-12-27 17:01:12,165] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.982 seconds
+[2023-12-27 17:02:18,299] {processor.py:153} INFO - Started process (PID=2997) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:02:18,300] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:02:18,300] {logging_mixin.py:115} INFO - [2023-12-27 17:02:18,300] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:02:19,025] {logging_mixin.py:115} INFO - [2023-12-27 17:02:19,025] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:02:19,025] {logging_mixin.py:115} INFO - [2023-12-27 17:02:19,025] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:02:19,182] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:02:19,237] {logging_mixin.py:115} INFO - [2023-12-27 17:02:19,237] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:02:19,259] {logging_mixin.py:115} INFO - [2023-12-27 17:02:19,259] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T16:00:00+00:00, run_after=2023-12-27T17:00:00+00:00
+[2023-12-27 17:02:19,302] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 1.006 seconds
+[2023-12-27 17:03:32,773] {processor.py:153} INFO - Started process (PID=3233) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:03:32,774] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:03:32,774] {logging_mixin.py:115} INFO - [2023-12-27 17:03:32,774] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:03:33,503] {logging_mixin.py:115} INFO - [2023-12-27 17:03:33,503] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:03:33,503] {logging_mixin.py:115} INFO - [2023-12-27 17:03:33,503] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:03:33,662] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:03:33,675] {logging_mixin.py:115} INFO - [2023-12-27 17:03:33,675] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:03:33,698] {logging_mixin.py:115} INFO - [2023-12-27 17:03:33,698] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:03:33,736] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.966 seconds
+[2023-12-27 17:04:38,336] {processor.py:153} INFO - Started process (PID=3343) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:04:38,337] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:04:38,337] {logging_mixin.py:115} INFO - [2023-12-27 17:04:38,337] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:04:39,066] {logging_mixin.py:115} INFO - [2023-12-27 17:04:39,066] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:04:39,066] {logging_mixin.py:115} INFO - [2023-12-27 17:04:39,066] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:04:39,224] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:04:39,285] {logging_mixin.py:115} INFO - [2023-12-27 17:04:39,285] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:04:39,310] {logging_mixin.py:115} INFO - [2023-12-27 17:04:39,309] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:04:39,354] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 1.020 seconds
+[2023-12-27 17:05:53,821] {processor.py:153} INFO - Started process (PID=3484) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:05:53,821] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:05:53,821] {logging_mixin.py:115} INFO - [2023-12-27 17:05:53,821] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:05:54,556] {logging_mixin.py:115} INFO - [2023-12-27 17:05:54,555] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:05:54,556] {logging_mixin.py:115} INFO - [2023-12-27 17:05:54,556] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:05:54,716] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:05:54,773] {logging_mixin.py:115} INFO - [2023-12-27 17:05:54,773] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:05:54,797] {logging_mixin.py:115} INFO - [2023-12-27 17:05:54,797] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:05:54,840] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 1.023 seconds
+[2023-12-27 17:06:58,643] {processor.py:153} INFO - Started process (PID=3598) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:06:58,644] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:06:58,644] {logging_mixin.py:115} INFO - [2023-12-27 17:06:58,644] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:06:59,321] {logging_mixin.py:115} INFO - [2023-12-27 17:06:59,321] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:06:59,321] {logging_mixin.py:115} INFO - [2023-12-27 17:06:59,321] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:06:59,480] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:06:59,495] {logging_mixin.py:115} INFO - [2023-12-27 17:06:59,495] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:06:59,519] {logging_mixin.py:115} INFO - [2023-12-27 17:06:59,519] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:06:59,558] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.918 seconds
+[2023-12-27 17:08:03,048] {processor.py:153} INFO - Started process (PID=3725) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:08:03,049] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:08:03,049] {logging_mixin.py:115} INFO - [2023-12-27 17:08:03,049] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:08:03,705] {logging_mixin.py:115} INFO - [2023-12-27 17:08:03,705] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:08:03,705] {logging_mixin.py:115} INFO - [2023-12-27 17:08:03,705] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:08:03,865] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:08:03,921] {logging_mixin.py:115} INFO - [2023-12-27 17:08:03,921] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:08:03,944] {logging_mixin.py:115} INFO - [2023-12-27 17:08:03,944] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:08:03,986] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.941 seconds
+[2023-12-27 17:09:11,349] {processor.py:153} INFO - Started process (PID=3853) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:09:11,349] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:09:11,350] {logging_mixin.py:115} INFO - [2023-12-27 17:09:11,349] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:09:12,022] {logging_mixin.py:115} INFO - [2023-12-27 17:09:12,022] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:09:12,023] {logging_mixin.py:115} INFO - [2023-12-27 17:09:12,023] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:09:12,182] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:09:12,197] {logging_mixin.py:115} INFO - [2023-12-27 17:09:12,197] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:09:12,220] {logging_mixin.py:115} INFO - [2023-12-27 17:09:12,220] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:09:12,258] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.912 seconds
+[2023-12-27 17:10:13,456] {processor.py:153} INFO - Started process (PID=3966) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:10:13,456] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:10:13,457] {logging_mixin.py:115} INFO - [2023-12-27 17:10:13,457] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:10:14,112] {logging_mixin.py:115} INFO - [2023-12-27 17:10:14,112] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:10:14,113] {logging_mixin.py:115} INFO - [2023-12-27 17:10:14,113] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:10:14,272] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:10:14,329] {logging_mixin.py:115} INFO - [2023-12-27 17:10:14,328] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:10:14,352] {logging_mixin.py:115} INFO - [2023-12-27 17:10:14,352] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:10:14,394] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.941 seconds
+[2023-12-27 17:11:17,753] {processor.py:153} INFO - Started process (PID=4081) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:11:17,753] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:11:17,754] {logging_mixin.py:115} INFO - [2023-12-27 17:11:17,754] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:11:18,450] {logging_mixin.py:115} INFO - [2023-12-27 17:11:18,450] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:11:18,450] {logging_mixin.py:115} INFO - [2023-12-27 17:11:18,450] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:11:18,614] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:11:18,630] {logging_mixin.py:115} INFO - [2023-12-27 17:11:18,630] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:11:18,654] {logging_mixin.py:115} INFO - [2023-12-27 17:11:18,654] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:11:18,693] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.944 seconds
+[2023-12-27 17:12:23,538] {processor.py:153} INFO - Started process (PID=4197) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:12:23,539] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:12:23,539] {logging_mixin.py:115} INFO - [2023-12-27 17:12:23,539] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:12:24,228] {logging_mixin.py:115} INFO - [2023-12-27 17:12:24,228] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:12:24,228] {logging_mixin.py:115} INFO - [2023-12-27 17:12:24,228] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:12:24,392] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:12:24,448] {logging_mixin.py:115} INFO - [2023-12-27 17:12:24,448] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:12:24,473] {logging_mixin.py:115} INFO - [2023-12-27 17:12:24,472] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:12:24,515] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.980 seconds
+[2023-12-27 17:14:57,644] {processor.py:153} INFO - Started process (PID=4346) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:14:57,644] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:14:57,645] {logging_mixin.py:115} INFO - [2023-12-27 17:14:57,645] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:14:58,367] {logging_mixin.py:115} INFO - [2023-12-27 17:14:58,367] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:14:58,367] {logging_mixin.py:115} INFO - [2023-12-27 17:14:58,367] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:14:58,528] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:14:58,546] {logging_mixin.py:115} INFO - [2023-12-27 17:14:58,545] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:14:58,572] {logging_mixin.py:115} INFO - [2023-12-27 17:14:58,571] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:14:58,614] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.974 seconds
+[2023-12-27 17:16:32,271] {processor.py:153} INFO - Started process (PID=4577) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:16:32,272] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:16:32,272] {logging_mixin.py:115} INFO - [2023-12-27 17:16:32,272] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:16:32,996] {logging_mixin.py:115} INFO - [2023-12-27 17:16:32,996] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:16:32,996] {logging_mixin.py:115} INFO - [2023-12-27 17:16:32,996] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:16:33,155] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:16:33,214] {logging_mixin.py:115} INFO - [2023-12-27 17:16:33,214] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:16:33,238] {logging_mixin.py:115} INFO - [2023-12-27 17:16:33,237] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:16:33,283] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 1.015 seconds
+[2023-12-27 17:17:32,726] {processor.py:153} INFO - Started process (PID=4684) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:17:32,727] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:17:32,727] {logging_mixin.py:115} INFO - [2023-12-27 17:17:32,727] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:17:33,467] {logging_mixin.py:115} INFO - [2023-12-27 17:17:33,467] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:17:33,467] {logging_mixin.py:115} INFO - [2023-12-27 17:17:33,467] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:17:33,625] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:17:33,642] {logging_mixin.py:115} INFO - [2023-12-27 17:17:33,642] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:17:33,667] {logging_mixin.py:115} INFO - [2023-12-27 17:17:33,667] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:17:33,707] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.983 seconds
+[2023-12-27 17:18:20,567] {processor.py:153} INFO - Started process (PID=4847) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:18:20,568] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:18:20,568] {logging_mixin.py:115} INFO - [2023-12-27 17:18:20,568] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:18:21,293] {logging_mixin.py:115} INFO - [2023-12-27 17:18:21,293] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:18:21,293] {logging_mixin.py:115} INFO - [2023-12-27 17:18:21,293] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:18:21,453] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:18:21,509] {logging_mixin.py:115} INFO - [2023-12-27 17:18:21,508] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:18:21,532] {logging_mixin.py:115} INFO - [2023-12-27 17:18:21,532] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:18:21,575] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 1.011 seconds
+[2023-12-27 17:19:08,927] {processor.py:153} INFO - Started process (PID=4929) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:19:08,927] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:19:08,928] {logging_mixin.py:115} INFO - [2023-12-27 17:19:08,928] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:19:09,664] {logging_mixin.py:115} INFO - [2023-12-27 17:19:09,664] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:19:09,664] {logging_mixin.py:115} INFO - [2023-12-27 17:19:09,664] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:19:09,825] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:19:09,840] {logging_mixin.py:115} INFO - [2023-12-27 17:19:09,840] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:19:09,864] {logging_mixin.py:115} INFO - [2023-12-27 17:19:09,864] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:19:09,904] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.981 seconds
+[2023-12-27 17:20:19,215] {processor.py:153} INFO - Started process (PID=5056) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:20:19,216] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:20:19,216] {logging_mixin.py:115} INFO - [2023-12-27 17:20:19,216] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:20:19,893] {logging_mixin.py:115} INFO - [2023-12-27 17:20:19,893] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:20:19,893] {logging_mixin.py:115} INFO - [2023-12-27 17:20:19,893] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:20:20,054] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:20:20,113] {logging_mixin.py:115} INFO - [2023-12-27 17:20:20,113] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:20:20,137] {logging_mixin.py:115} INFO - [2023-12-27 17:20:20,137] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:20:20,182] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.970 seconds
+[2023-12-27 17:21:26,803] {processor.py:153} INFO - Started process (PID=5194) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:21:26,804] {processor.py:641} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py for tasks to queue
+[2023-12-27 17:21:26,804] {logging_mixin.py:115} INFO - [2023-12-27 17:21:26,804] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:21:27,458] {logging_mixin.py:115} INFO - [2023-12-27 17:21:27,458] {utils.py:145} INFO - Note: NumExpr detected 64 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-12-27 17:21:27,458] {logging_mixin.py:115} INFO - [2023-12-27 17:21:27,458] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2023-12-27 17:21:27,617] {processor.py:651} INFO - DAG(s) dict_keys(['Lead_scoring_inference_pipeline']) retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py
+[2023-12-27 17:21:27,633] {logging_mixin.py:115} INFO - [2023-12-27 17:21:27,633] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-12-27 17:21:27,656] {logging_mixin.py:115} INFO - [2023-12-27 17:21:27,656] {dag.py:2968} INFO - Setting next_dagrun for Lead_scoring_inference_pipeline to 2023-12-27T17:00:00+00:00, run_after=2023-12-27T18:00:00+00:00
+[2023-12-27 17:21:27,689] {processor.py:161} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/.ipynb_checkpoints/lead_scoring_inference_pipeline-checkpoint.py took 0.888 seconds
